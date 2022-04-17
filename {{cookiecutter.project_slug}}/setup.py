@@ -23,7 +23,7 @@ setup(
             "pytest",
         ],
     },
-    {%- if cookiecutter.project_type == "executable" -%}
+    {% if cookiecutter.project_type == "executable" -%}
     entry_points={
         "console_scripts": [
             "{{cookiecutter.project_slug}}={{cookiecutter.project_slug|replace('-', '_')}}.__main__:main"
