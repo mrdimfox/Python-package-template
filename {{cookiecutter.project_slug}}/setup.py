@@ -7,7 +7,7 @@ setup(
     description="{{cookiecutter.package_description}}",
     url="{{cookiecutter.package_url}}",
     author="{{cookiecutter.author}}",
-    author_email="{{cookiecutter.author_email}}"
+    author_email="{{cookiecutter.author_email}}",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     python_requires=">={{cookiecutter.python_version}}, <4",
