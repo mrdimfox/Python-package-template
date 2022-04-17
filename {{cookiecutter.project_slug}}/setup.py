@@ -1,5 +1,5 @@
-import sys
-import os
+from setuptools import setup
+from setuptools import find_namespace_packages as find_packages
 
 setup(
     name="{{cookiecutter.project_slug}}",
