@@ -1,5 +1,11 @@
 # Package template
 
+## [1.0.2] - 2022-04-17
+
+### Fixed
+- Missing settings.json.
+
+
 ## [1.0.1] - 2022-04-17
 
 ### Fixed
