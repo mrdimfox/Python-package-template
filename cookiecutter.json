@@ -1,0 +1,13 @@
+{
+    "project_name": "Project human readable name",
+    "package_description": "Package short description (for setup.py)",
+    "project_slug": "python-package-name",
+    "project_type": [
+        "library",
+        "executable"
+    ],
+    "package_url": "",
+    "author": "Me",
+    "author_email": "your@email.here",
+    "python_version": "3.9"
+}

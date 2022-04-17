@@ -1,0 +1,8 @@
+name: {{cookiecutter.project_slug}}
+channels:
+  - defaults
+dependencies:
+  - python={{cookiecutter.python_version}}
+  - pip
+  - pip:
+      - --editable .[dev,tests]
